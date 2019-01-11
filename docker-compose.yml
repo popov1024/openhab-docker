@@ -1,0 +1,5 @@
+version: '3.4'
+
+services:
+  openhab:
+    image: openhab/openhab:${TAG:-latest}
